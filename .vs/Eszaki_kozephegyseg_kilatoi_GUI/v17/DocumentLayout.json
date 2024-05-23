@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lajtaib\\Documents\\z\\wpf\\2024.04.03_Vizsga_Gyak23\\mo\\Eszaki_kozephegyseg_kilatoi_GUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA757281-91BB-4B82-9A8E-195EE296DF38}|Eszaki_kozephegyseg_kilatoi_GUI.csproj|c:\\users\\lajtaib\\documents\\z\\wpf\\2024.04.03_vizsga_gyak23\\mo\\eszaki_kozephegyseg_kilatoi_gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA757281-91BB-4B82-9A8E-195EE296DF38}|Eszaki_kozephegyseg_kilatoi_GUI.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA757281-91BB-4B82-9A8E-195EE296DF38}|Eszaki_kozephegyseg_kilatoi_GUI.csproj|c:\\users\\lajtaib\\documents\\z\\wpf\\2024.04.03_vizsga_gyak23\\mo\\eszaki_kozephegyseg_kilatoi_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA757281-91BB-4B82-9A8E-195EE296DF38}|Eszaki_kozephegyseg_kilatoi_GUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lajtaib\\Documents\\z\\wpf\\2024.04.03_Vizsga_Gyak23\\mo\\Eszaki_kozephegyseg_kilatoi_GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lajtaib\\Documents\\z\\wpf\\2024.04.03_Vizsga_Gyak23\\mo\\Eszaki_kozephegyseg_kilatoi_GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwEMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:57:59.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lajtaib\\Documents\\z\\wpf\\2024.04.03_Vizsga_Gyak23\\mo\\Eszaki_kozephegyseg_kilatoi_GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lajtaib\\Documents\\z\\wpf\\2024.04.03_Vizsga_Gyak23\\mo\\Eszaki_kozephegyseg_kilatoi_GUI\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T09:47:56.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿<Window x:Class="Eszaki_kozephegyseg_kilatoi_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Eszaki_kozephegyseg_kilatoi_GUI"
+        mc:Ignorable="d"
+        Title="Északi középhegység kilátói" MinHeight="660" MinWidth="800" FontSize="16">
+    <Grid Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="CornflowerBlue" Grid.ColumnSpan="3"/>
+        <Label Content="Északi középhegység kilátói" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Foreground="White" FontWeight="Bold"/>
+        <StackPanel Grid.Row="1" Margin="5">
+            <Label Content="Hegységek:" FontWeight="Bold"/>
+            <ListBox x:Name="mountains_LB" Height="170" ItemsSource="{Binding Locations}" DisplayMemberPath="location" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="mountains_LB_SelectionChanged"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="5">
+            <Label Content="Kilátók:" FontWeight="Bold"/>
+            <DataGrid x:Name="viewpoints_DG" AutoGenerateColumns="False" IsReadOnly="True" Height="130" ItemsSource="{Binding Viewpoints}" SelectionChanged="viewpoints_DG_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Megnevezés" Width="*" Binding="{Binding viewpointName}"/>
+                    <DataGridTextColumn Header="Hegy" Width="*" Binding="{Binding mountain}"/>
+                    <DataGridTextColumn Header="Magasság" Width="0.3*" Binding="{Binding height}"/>
+                    <DataGridTextColumn Header="Épül" Width="0.3*" Binding="{Binding built}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" Margin="5">
+            <Label Content="Leírás:" FontWeight="Bold"/>
+            <TextBlock x:Name="description_LB" Width="250" Text="" TextWrapping="Wrap" Margin="10"/>
+        </StackPanel>
+        <Image x:Name="viewpoint_IMG" Grid.Row="2" Grid.Column="2"/>
+        <Rectangle Fill="CornflowerBlue" Grid.ColumnSpan="3" Grid.Row="3"/>
+        <Label Content="Készítette: Saját név" Foreground="White" FontStyle="Italic" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>
